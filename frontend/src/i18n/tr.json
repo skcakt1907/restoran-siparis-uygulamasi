@@ -1,0 +1,110 @@
+{
+  "topbar": {
+    "hours": "Her gün 11:00 — 00:00",
+    "orderTrack": "Sipariş Takip",
+    "memberLogin": "Üye Girişi"
+  },
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "menu": "Menü",
+    "team": "Şefler",
+    "blog": "Blog",
+    "contact": "İletişim",
+    "reservation": "Rezervasyon"
+  },
+  "hero": {
+    "slide1": { "kicker": "ÇITIR Tavuk & Cafe", "title1": "Çıtır", "title2": "Lezzetler", "sub": "Gizli baharat karışımı, taze malzeme ve özel kaplama tekniğiyle hazırlanan kıtır tavuklarımız sizi bekliyor." },
+    "slide2": { "kicker": "Ödüllü Soslar", "title1": "Kanat", "title2": "Sefası", "sub": "BBQ'dan acılı buffalo'ya, 18 farklı ev yapımı sosumuzla kanat sefası seni bekliyor." },
+    "slide3": { "kicker": "Sıcak Sıcak Servis", "title1": "Sıcak", "title2": "Tabakta", "sub": "Sipariş anında pişirilen, sıcacık servis edilen burgerlerimiz ve menülerimizle damak zevkinizi şenlendirin." },
+    "ctaMenu": "Menüyü İncele",
+    "ctaReservation": "📅 Rezervasyon"
+  },
+  "section": {
+    "about": { "kicker": "Hakkımızda", "title": "Çıtır Tavukta 15 Yıllık Tecrübe", "btnMore": "Daha Fazla", "li1": "Her gün taze, dondurulmuş tavuk yok", "li2": "Ev yapımı 18 farklı sos", "li3": "Çift kızartma tekniğiyle ekstra kıtır", "li4": "Aile dostu, hızlı servis", "p": "ÇITIR Tavuk & Cafe, gizli baharat karışımı ve özel kaplama tekniğiyle hazırlanan kıtır tavukların adresi. Taze malzeme, ev yapımı soslar ve sıcak servis anlayışıyla şehrin en sevilen tavukçularındanız." },
+    "menu": { "kicker": "Menümüz", "title": "Çıtır Lezzet Kategorileri", "sub": "Çıtır tavuktan kanada, burgerden milkshake'e — tüm favorilerin tek menüde.", "btnAll": "Tüm Menüyü Gör" },
+    "packages": { "kicker": "Paketler", "title": "Özel Paketlerimiz", "sub": "Tek başına, çift kişi veya aile — herkese uygun paket var.", "btnSelect": "Seç", "recommended": "Önerilen" },
+    "team": { "kicker": "Şeflerimiz", "title": "Mutfağımızın Ustaları", "sub": "Yılların deneyimiyle damak tadınıza lezzet katan usta şeflerimizle tanışın." },
+    "testimonials": { "kicker": "Müşteri Yorumları", "title": "Misafirlerimiz Ne Diyor?", "sub": "Misafirlerimizin deneyimlerini ve ÇITIR hakkındaki düşüncelerini paylaşıyoruz." },
+    "blog": { "kicker": "Güncel", "title": "Blog Yazılarımız", "sub": "Lezzet, mutfak ve özel anlara dair yazılarımız.", "btnAll": "Tümünü Gör", "readMore": "Devamını Oku" },
+    "rez": { "kicker": "Rezervasyon", "title": "Masanızı Ayırtın", "sub": "Sıcak bir atmosfer, eşsiz lezzetler ve hafızanızda yer eden bir akşam için sizi bekliyoruz." }
+  },
+  "form": {
+    "name": "Ad Soyad",
+    "email": "E-Posta",
+    "phone": "Telefon",
+    "date": "Tarih",
+    "time": "Saat",
+    "guests": "Kişi Sayısı",
+    "occasion": "Özel Gün",
+    "notes": "Notlar",
+    "message": "Mesajınız",
+    "submitContact": "✉ Mesaj Gönder",
+    "submitRez": "📅 Rezervasyon Yap",
+    "submitInline": "📅 Rezerve Et",
+    "sending": "Gönderiliyor…",
+    "rezSuccess": "Rezervasyon talebiniz alındı.",
+    "contactSuccess": "Mesajınız iletildi.",
+    "errors": "Lütfen formdaki hataları düzeltin.",
+    "occasionPlaceholder": "Seçiniz (opsiyonel)",
+    "occBirthday": "Doğum Günü",
+    "occAnniversary": "Yıldönümü",
+    "occBusiness": "İş Yemeği",
+    "occFamily": "Aile Yemeği",
+    "occOther": "Diğer"
+  },
+  "contact": {
+    "kicker": "İletişim",
+    "title": "Bize Ulaşın",
+    "sub": "Sorularınız ve özel taleplerinizle bizimle iletişime geçin.",
+    "h2": "ÇITIR'a Ulaşın",
+    "address": "Adres",
+    "phoneL": "Telefon",
+    "emailL": "E-Posta",
+    "hoursL": "Çalışma Saatleri",
+    "sendMsg": "Mesaj Gönder"
+  },
+  "footer": {
+    "corporate": "Kurumsal",
+    "corporateDesc": "15 yıldır çıtır tavuk yapan ÇITIR Tavuk & Cafe, taze malzeme, ev yapımı soslar ve gizli baharat karışımıyla şehrin en sevilen tavukçularından biri.",
+    "quickMenu": "Hızlı Menü",
+    "contactInfo": "İletişim Bilgileri",
+    "newsletter": "E-Posta Bültenimize Kaydolun",
+    "newsletterDesc": "Yeni menüler, kampanyalar ve yeni şubelerden ilk siz haberdar olun!",
+    "newsletterPh": "E-posta adresiniz",
+    "newsletterBtn": "Abone Ol",
+    "subscribed": "✓ Aboneliğiniz alındı!",
+    "rights": "Her Hakkı Saklıdır.",
+    "lang": "Dil",
+    "currency": "Para",
+    "links": {
+      "about": "Hakkımızda",
+      "menu": "Menümüz",
+      "team": "Şeflerimiz",
+      "certs": "Sertifikalarımız",
+      "photos": "Foto Galeri",
+      "videos": "Video Galeri",
+      "hr": "İnsan Kaynakları",
+      "reviews": "Müşteri Görüşleri",
+      "branches": "Şubelerimiz",
+      "blog": "Blog",
+      "contact": "İletişim"
+    }
+  },
+  "menuPage": {
+    "kicker": "Menümüz",
+    "title": "Lezzetli Bir Yolculuk",
+    "sub": "Her kategoride özenle hazırlanmış, taze malzemelerle pişmiş tabaklar sizi bekliyor.",
+    "empty": "Bu kategoride yemek bulunmuyor.",
+    "tagFeatured": "Şefin Tercihi",
+    "tagVegan": "Vegan",
+    "tagSpicy": "Acılı"
+  },
+  "common": {
+    "home": "Anasayfa",
+    "loading": "Yükleniyor…",
+    "notFound": "Sayfa Bulunamadı",
+    "notFoundDesc": "Aradığınız sayfa menüden kaybolmuş gibi görünüyor.",
+    "backHome": "← Anasayfaya Dön"
+  }
+}

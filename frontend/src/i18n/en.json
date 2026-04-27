@@ -1,0 +1,110 @@
+{
+  "topbar": {
+    "hours": "Daily 11:00 AM — 12:00 AM",
+    "orderTrack": "Order Tracking",
+    "memberLogin": "Member Login"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "menu": "Menu",
+    "team": "Chefs",
+    "blog": "Blog",
+    "contact": "Contact",
+    "reservation": "Reservation"
+  },
+  "hero": {
+    "slide1": { "kicker": "ÇITIR Chicken & Cafe", "title1": "Crispy", "title2": "Flavors", "sub": "Hand-prepared crispy chicken with our secret spice blend, fresh ingredients, and double-fry technique awaits you." },
+    "slide2": { "kicker": "Award-Winning Sauces", "title1": "Wing", "title2": "Heaven", "sub": "From BBQ to spicy buffalo — 18 different homemade sauces for the ultimate wing experience." },
+    "slide3": { "kicker": "Hot & Fresh Service", "title1": "Hot &", "title2": "Fresh", "sub": "Cooked-to-order burgers and meals served piping hot — every single time." },
+    "ctaMenu": "Explore Menu",
+    "ctaReservation": "📅 Book a Table"
+  },
+  "section": {
+    "about": { "kicker": "About Us", "title": "15 Years of Crispy Chicken Mastery", "btnMore": "Learn More", "li1": "Fresh chicken daily — never frozen", "li2": "18 homemade sauces", "li3": "Double-fry technique for extra crispiness", "li4": "Family-friendly, fast service", "p": "ÇITIR Chicken & Cafe is the home of crispy chicken made with our secret spice blend and signature breading. With fresh ingredients, homemade sauces, and warm hospitality, we are one of the city's most loved chicken spots." },
+    "menu": { "kicker": "Our Menu", "title": "Crispy Categories", "sub": "From crispy chicken to wings, burgers to milkshakes — all your favorites on one menu.", "btnAll": "View Full Menu" },
+    "packages": { "kicker": "Packages", "title": "Our Special Packages", "sub": "Solo, duo, or family — there's a package for everyone.", "btnSelect": "Choose", "recommended": "Recommended" },
+    "team": { "kicker": "Our Chefs", "title": "Masters of the Kitchen", "sub": "Meet our master chefs who add flavor to every plate with years of experience." },
+    "testimonials": { "kicker": "Testimonials", "title": "What Our Guests Say?", "sub": "We share our guests' experiences and thoughts about ÇITIR." },
+    "blog": { "kicker": "Latest", "title": "Blog Posts", "sub": "Our writings on flavor, kitchen, and special moments.", "btnAll": "View All", "readMore": "Read More" },
+    "rez": { "kicker": "Reservation", "title": "Reserve Your Table", "sub": "A warm atmosphere, unique flavors, and an unforgettable evening await you." }
+  },
+  "form": {
+    "name": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "date": "Date",
+    "time": "Time",
+    "guests": "Guests",
+    "occasion": "Occasion",
+    "notes": "Notes",
+    "message": "Your Message",
+    "submitContact": "✉ Send Message",
+    "submitRez": "📅 Book Table",
+    "submitInline": "📅 Reserve",
+    "sending": "Sending…",
+    "rezSuccess": "Reservation request received.",
+    "contactSuccess": "Your message has been sent.",
+    "errors": "Please fix the errors in the form.",
+    "occasionPlaceholder": "Select (optional)",
+    "occBirthday": "Birthday",
+    "occAnniversary": "Anniversary",
+    "occBusiness": "Business Meal",
+    "occFamily": "Family Dinner",
+    "occOther": "Other"
+  },
+  "contact": {
+    "kicker": "Contact",
+    "title": "Get in Touch",
+    "sub": "Reach out to us with your questions and special requests.",
+    "h2": "Reach ÇITIR",
+    "address": "Address",
+    "phoneL": "Phone",
+    "emailL": "Email",
+    "hoursL": "Hours",
+    "sendMsg": "Send Message"
+  },
+  "footer": {
+    "corporate": "Corporate",
+    "corporateDesc": "ÇITIR Chicken & Cafe has been making crispy chicken for 15 years — fresh ingredients, homemade sauces, and a secret spice blend. One of the city's favorite chicken spots.",
+    "quickMenu": "Quick Links",
+    "contactInfo": "Contact Info",
+    "newsletter": "Subscribe to Our Newsletter",
+    "newsletterDesc": "Be the first to hear about new menus, campaigns, and new branches!",
+    "newsletterPh": "Your email address",
+    "newsletterBtn": "Subscribe",
+    "subscribed": "✓ Subscription confirmed!",
+    "rights": "All rights reserved.",
+    "lang": "Lang",
+    "currency": "Currency",
+    "links": {
+      "about": "About Us",
+      "menu": "Our Menu",
+      "team": "Our Chefs",
+      "certs": "Certifications",
+      "photos": "Photo Gallery",
+      "videos": "Video Gallery",
+      "hr": "Careers",
+      "reviews": "Customer Reviews",
+      "branches": "Branches",
+      "blog": "Blog",
+      "contact": "Contact"
+    }
+  },
+  "menuPage": {
+    "kicker": "Our Menu",
+    "title": "A Delicious Journey",
+    "sub": "Carefully prepared dishes cooked with fresh ingredients across every category.",
+    "empty": "No items in this category yet.",
+    "tagFeatured": "Chef's Pick",
+    "tagVegan": "Vegan",
+    "tagSpicy": "Spicy"
+  },
+  "common": {
+    "home": "Home",
+    "loading": "Loading…",
+    "notFound": "Page Not Found",
+    "notFoundDesc": "The page you're looking for seems to have wandered off the menu.",
+    "backHome": "← Back to Home"
+  }
+}
