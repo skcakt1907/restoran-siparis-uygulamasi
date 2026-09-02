@@ -4,19 +4,20 @@ import client from '../api/client';
 const SettingsContext = createContext({});
 
 const FALLBACK = {
-  site_name:      'ÇITIR Tavuk & Cafe',
-  site_tagline:   'Çıtır Lezzetler',
-  site_about:     '',
-  site_phone:     '0 (212) 000 00 00',
-  site_gsm:       '0 (532) 000 00 00',
+  site_name:      'İçmeler Tavukçusu',
+  site_tagline:   "Marmaris'in Lezzet Adresi",
+  site_about:     "İçmeler'de 1950'lerden bu yana misafir ağırlıyoruz. Yöresel köy tavuğu, samimi atmosfer ve aile sıcaklığında ağırlama anlayışıyla Marmaris'in lezzet adresi.",
+  site_phone:     '0533 514 40 15',
+  site_gsm:       '0533 514 40 15',
   site_email:     'info@ornek-restoran.com',
-  site_address:   'Kalamış Caddesi No:42, Kadıköy / İstanbul',
+  site_address:   'İçmeler, Kayabal Cd., 48720 Marmaris/Muğla',
   site_hours:     'Her gün 11:00 — 00:00',
   site_facebook:  '#',
   site_twitter:   '#',
   site_instagram: '#',
   site_youtube:   '#',
   site_linkedin:  '#',
+  site_logo:      'logos/icmeler-tavukcusu-logo.png',
 };
 
 export function SettingsProvider({ children }) {

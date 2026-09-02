@@ -10,6 +10,8 @@ use Filament\Pages\Dashboard;
 use Filament\Panel;
 use Filament\PanelProvider;
 use Filament\Support\Colors\Color;
+use Filament\View\PanelsRenderHook;
+use Illuminate\Support\Facades\Blade;
 use App\Filament\Widgets\LatestMessages;
 use App\Filament\Widgets\LatestReservations;
 use App\Filament\Widgets\StatsOverview;
@@ -33,7 +35,7 @@ class AdminPanelProvider extends PanelProvider
         return $panel
             ->default()
             ->id('admin')
-            ->path('admin')
+            ->path('api/admin')
             ->login()
             ->brandName('ÇITIR Admin')
             ->brandLogo($logo ? asset('storage/' . $logo) : null)
@@ -42,6 +44,27 @@ class AdminPanelProvider extends PanelProvider
             ->colors([
                 'primary' => Color::Amber,
             ])
+            ->darkMode(true)
+            ->renderHook(PanelsRenderHook::HEAD_END, fn (): string => <<<'HTML'
+                <script>
+                (function() {
+                  function apply() {
+                    var now = new Date();
+                    var h = now.getHours();
+                    var wantDark = (h >= 20 || h < 8);
+                    try { localStorage.setItem('theme', wantDark ? 'dark' : 'light'); } catch(e) {}
+                    document.documentElement.classList.toggle('dark', wantDark);
+                    var next = new Date(now);
+                    next.setMinutes(0, 0, 0);
+                    if (h < 8)        next.setHours(8);
+                    else if (h < 20)  next.setHours(20);
+                    else { next.setDate(next.getDate() + 1); next.setHours(8); }
+                    setTimeout(apply, next - now + 1000);
+                  }
+                  apply();
+                })();
+                </script>
+                HTML)
             ->sidebarCollapsibleOnDesktop()
             ->navigationGroups([
                 'Menü Yönetimi',

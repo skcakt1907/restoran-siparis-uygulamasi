@@ -21,16 +21,16 @@ export default function About() {
           </div>
           <div>
             <span className="kicker">Lezzet Hikayemiz</span>
-            <h2>Bir Aile Tarifinden<br />Şehrin En Sevileni'ne</h2>
+            <h2>1950'den Bu Yana<br />Misafir Ağırlıyoruz</h2>
             <div style={{ width: 80, height: 3, background: 'var(--paprika)', margin: '16px 0 22px' }}></div>
-            <p>ÇITIR'ın hikayesi 15 yıl önce küçük bir aile tezgâhında başladı. Annemizin gizli baharat karışımı, babamızın çift kızartma tekniği ve bizim "her tavuk taze olmalı" ilkemizle bugün şehrin en sevilen tavukçularından biri olduk.</p>
-            <p>Asla dondurulmuş ürün kullanmıyoruz, tavuklarımız her gün taze geliyor. Soslarımız ev yapımı, baharatlarımız değirmenden taze öğütülmüş. Çünkü çıtır tavuğun sırrı detaylarda saklı.</p>
+            <p>İçmeler'de 1950'li yılların başından bu yana misafir ağırlamaktayız. Buraların ünlü köy tavuğu günümüze yorumlana yorumlana gelse de anlayış ve tavır aynı samimiyeti ile ilerlemektedir.</p>
+            <p>Ağırladığımız misafirlere konaklama, gezi ve gastronomi anlamında eşlik eden bir aileyken; şimdilerde geleneğimizin ağırlaması olan, evimizin salonu olarak gördüğümüz İçmeler Tavukçusu'nda sizlerle buluşuyoruz.</p>
             <ul>
-              <li>Günlük taze tavuk, asla dondurulmuş değil</li>
-              <li>15 yıllık aile tarifi gizli baharat karışımı</li>
-              <li>Çift kızartma tekniğiyle ekstra kıtır kaplama</li>
-              <li>18 farklı ev yapımı sos</li>
-              <li>Trans yağsız, doğal pişirme yağı</li>
+              <li>1950'lerden gelen aile geleneği</li>
+              <li>İçmeler'in ünlü köy tavuğu</li>
+              <li>Samimi, ev sıcaklığında ağırlama</li>
+              <li>Yöresel mutfak ve gastronomi anlayışı</li>
+              <li>Marmaris'in lezzet adresi</li>
             </ul>
           </div>
         </div>

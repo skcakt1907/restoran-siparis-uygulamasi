@@ -8,24 +8,22 @@
     "home": "Anasayfa",
     "about": "Hakkımızda",
     "menu": "Menü",
-    "team": "Şefler",
     "blog": "Blog",
     "contact": "İletişim",
     "reservation": "Rezervasyon"
   },
   "hero": {
-    "slide1": { "kicker": "ÇITIR Tavuk & Cafe", "title1": "Çıtır", "title2": "Lezzetler", "sub": "Gizli baharat karışımı, taze malzeme ve özel kaplama tekniğiyle hazırlanan kıtır tavuklarımız sizi bekliyor." },
+    "slide1": { "kicker": "İçmeler Tavukçusu", "title1": "Köy", "title2": "Tavuğu", "sub": "1950'den bu yana İçmeler'in yöresel köy tavuğunu samimi ve geleneksel tarzda misafirlerimizle buluşturuyoruz." },
     "slide2": { "kicker": "Ödüllü Soslar", "title1": "Kanat", "title2": "Sefası", "sub": "BBQ'dan acılı buffalo'ya, 18 farklı ev yapımı sosumuzla kanat sefası seni bekliyor." },
     "slide3": { "kicker": "Sıcak Sıcak Servis", "title1": "Sıcak", "title2": "Tabakta", "sub": "Sipariş anında pişirilen, sıcacık servis edilen burgerlerimiz ve menülerimizle damak zevkinizi şenlendirin." },
     "ctaMenu": "Menüyü İncele",
     "ctaReservation": "📅 Rezervasyon"
   },
   "section": {
-    "about": { "kicker": "Hakkımızda", "title": "Çıtır Tavukta 15 Yıllık Tecrübe", "btnMore": "Daha Fazla", "li1": "Her gün taze, dondurulmuş tavuk yok", "li2": "Ev yapımı 18 farklı sos", "li3": "Çift kızartma tekniğiyle ekstra kıtır", "li4": "Aile dostu, hızlı servis", "p": "ÇITIR Tavuk & Cafe, gizli baharat karışımı ve özel kaplama tekniğiyle hazırlanan kıtır tavukların adresi. Taze malzeme, ev yapımı soslar ve sıcak servis anlayışıyla şehrin en sevilen tavukçularındanız." },
+    "about": { "kicker": "Hakkımızda", "title": "1950'den Bu Yana Misafir Ağırlıyoruz", "btnMore": "Daha Fazla", "li1": "1950'lerden gelen aile geleneği", "li2": "İçmeler'in ünlü köy tavuğu", "li3": "Samimi, ev sıcaklığında ağırlama", "li4": "Marmaris'in lezzet adresi", "p": "İçmeler'de 1950'li yılların başından bu yana misafir ağırlamaktayız. Buraların ünlü köy tavuğu günümüze yorumlana yorumlana gelse de anlayış ve tavır aynı samimiyeti ile ilerlemektedir." },
     "menu": { "kicker": "Menümüz", "title": "Çıtır Lezzet Kategorileri", "sub": "Çıtır tavuktan kanada, burgerden milkshake'e — tüm favorilerin tek menüde.", "btnAll": "Tüm Menüyü Gör" },
     "packages": { "kicker": "Paketler", "title": "Özel Paketlerimiz", "sub": "Tek başına, çift kişi veya aile — herkese uygun paket var.", "btnSelect": "Seç", "recommended": "Önerilen" },
-    "team": { "kicker": "Şeflerimiz", "title": "Mutfağımızın Ustaları", "sub": "Yılların deneyimiyle damak tadınıza lezzet katan usta şeflerimizle tanışın." },
-    "testimonials": { "kicker": "Müşteri Yorumları", "title": "Misafirlerimiz Ne Diyor?", "sub": "Misafirlerimizin deneyimlerini ve ÇITIR hakkındaki düşüncelerini paylaşıyoruz." },
+    "testimonials": { "kicker": "Müşteri Yorumları", "title": "Misafirlerimiz Ne Diyor?", "sub": "Misafirlerimizin deneyimlerini ve İçmeler Tavukçusu hakkındaki düşüncelerini paylaşıyoruz." },
     "blog": { "kicker": "Güncel", "title": "Blog Yazılarımız", "sub": "Lezzet, mutfak ve özel anlara dair yazılarımız.", "btnAll": "Tümünü Gör", "readMore": "Devamını Oku" },
     "rez": { "kicker": "Rezervasyon", "title": "Masanızı Ayırtın", "sub": "Sıcak bir atmosfer, eşsiz lezzetler ve hafızanızda yer eden bir akşam için sizi bekliyoruz." }
   },
@@ -57,7 +55,7 @@
     "kicker": "İletişim",
     "title": "Bize Ulaşın",
     "sub": "Sorularınız ve özel taleplerinizle bizimle iletişime geçin.",
-    "h2": "ÇITIR'a Ulaşın",
+    "h2": "İçmeler Tavukçusu'na Ulaşın",
     "address": "Adres",
     "phoneL": "Telefon",
     "emailL": "E-Posta",
@@ -66,7 +64,7 @@
   },
   "footer": {
     "corporate": "Kurumsal",
-    "corporateDesc": "15 yıldır çıtır tavuk yapan ÇITIR Tavuk & Cafe, taze malzeme, ev yapımı soslar ve gizli baharat karışımıyla şehrin en sevilen tavukçularından biri.",
+    "corporateDesc": "İçmeler'de 1950'lerden bu yana misafir ağırlıyoruz. Yöresel köy tavuğu, samimi atmosfer ve aile sıcaklığında ağırlama anlayışıyla Marmaris'in lezzet adresi.",
     "quickMenu": "Hızlı Menü",
     "contactInfo": "İletişim Bilgileri",
     "newsletter": "E-Posta Bültenimize Kaydolun",
@@ -80,7 +78,6 @@
     "links": {
       "about": "Hakkımızda",
       "menu": "Menümüz",
-      "team": "Şeflerimiz",
       "certs": "Sertifikalarımız",
       "photos": "Foto Galeri",
       "videos": "Video Galeri",

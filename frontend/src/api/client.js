@@ -14,7 +14,6 @@ export const fetchCategories  = ()        => client.get('/categories').then(r =>
 export const fetchCategory    = (slug)    => client.get(`/categories/${slug}`).then(r => r.data);
 export const fetchServices    = ()        => client.get('/services').then(r => r.data);
 export const fetchService     = (slug)    => client.get(`/services/${slug}`).then(r => r.data);
-export const fetchTeam        = ()        => client.get('/team').then(r => r.data);
 export const fetchPackages    = ()        => client.get('/packages').then(r => r.data);
 export const fetchTestimonials = ()       => client.get('/testimonials').then(r => r.data);
 export const fetchBlog        = ()        => client.get('/blog').then(r => r.data);

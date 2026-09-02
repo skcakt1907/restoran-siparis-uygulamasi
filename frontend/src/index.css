@@ -11,9 +11,9 @@ body {
 }
 
 :root {
-  --burgundy:    #1e4d3b;   /* koyu orman yeşili — ana marka */
-  --burgundy-2:  #2d6a52;
-  --wine:        #0f2920;   /* en koyu yeşil — topbar/footer */
+  --burgundy:    #606b71;   /* logo grisi — ana marka */
+  --burgundy-2:  #758089;
+  --wine:        #4a5359;   /* koyu logo grisi — topbar/footer */
   --paprika:     #c84a30;   /* kiremit kırmızı — CTA & vurgular */
   --paprika-d:   #a13720;
   --gold:        #c9a227;
@@ -194,8 +194,8 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   letter-spacing: 1px;
 }
 .logo-img {
-  max-height: 56px;
-  max-width: 220px;
+  max-height: 130px;
+  max-width: 640px;
   width: auto;
   object-fit: contain;
 }
@@ -1146,6 +1146,86 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
 .page-hero h1 { color: var(--cream); font-size: 3rem; margin-bottom: 14px; }
 .page-hero p { color: var(--gold-light); font-size: 1.05rem; max-width: 640px; margin: 0 auto; }
 .page-hero .kicker { color: var(--gold); }
+
+/* Home blog section mascot */
+.home-blog { position: relative; overflow: hidden; }
+.home-blog-mascot {
+  position: absolute;
+  right: 4%;
+  top: 30px;
+  height: 320px;
+  width: auto;
+  pointer-events: none;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.25));
+  transform-origin: top center;
+  opacity: 0.92;
+  z-index: 1;
+  animation: roosterSway 3.2s ease-in-out infinite;
+}
+@keyframes roosterSway {
+  0%   { transform: rotate(-10deg); }
+  50%  { transform: rotate(6deg); }
+  100% { transform: rotate(-10deg); }
+}
+@keyframes roosterSwayFlip {
+  0%   { transform: scaleX(-1) rotate(-10deg); }
+  50%  { transform: scaleX(-1) rotate(6deg); }
+  100% { transform: scaleX(-1) rotate(-10deg); }
+}
+@keyframes roosterBob {
+  0%   { transform: translateY(0) rotate(-4deg); }
+  50%  { transform: translateY(-12px) rotate(4deg); }
+  100% { transform: translateY(0) rotate(-4deg); }
+}
+
+/* Menu section mascot — sol taraf, ayna */
+.home-menu { position: relative; overflow: hidden; }
+.home-menu-mascot {
+  position: absolute;
+  left: 3%;
+  bottom: 40px;
+  height: 240px;
+  width: auto;
+  pointer-events: none;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));
+  transform-origin: top center;
+  opacity: 0.9;
+  z-index: 1;
+  animation: roosterSwayFlip 3.6s ease-in-out infinite;
+}
+.home-menu .container { position: relative; z-index: 2; }
+
+/* Testimonials section mascot — sağ üst, hafif zıplama */
+.testimonials-section { position: relative; overflow: hidden; }
+.home-test-mascot {
+  position: absolute;
+  right: 5%;
+  top: 40px;
+  height: 200px;
+  width: auto;
+  pointer-events: none;
+  filter: drop-shadow(0 10px 20px rgba(0,0,0,0.25));
+  transform-origin: center;
+  opacity: 0.85;
+  z-index: 1;
+  animation: roosterBob 2.8s ease-in-out infinite;
+}
+.testimonials-section .container { position: relative; z-index: 2; }
+
+@media (max-width: 992px) {
+  .home-menu-mascot { height: 140px; opacity: 0.5; }
+  .home-test-mascot { height: 130px; opacity: 0.5; }
+}
+@media (max-width: 600px) {
+  .home-menu-mascot, .home-test-mascot { display: none; }
+}
+.home-blog .container { position: relative; z-index: 2; }
+@media (max-width: 992px) {
+  .home-blog-mascot { height: 200px; right: 2%; top: 10px; opacity: 0.7; }
+}
+@media (max-width: 600px) {
+  .home-blog-mascot { display: none; }
+}
 .breadcrumb {
   margin-top: 18px;
   color: var(--gold-light);
@@ -1616,7 +1696,7 @@ button { font-family: inherit; cursor: pointer; border: 0; background: none; }
   .logo-mark { width: 44px; height: 44px; font-size: 1.4rem; }
   .logo-text strong { font-size: 1.2rem; }
   .logo-text small { font-size: 0.6rem; letter-spacing: 2.5px; }
-  .logo-img { max-height: 44px; max-width: 160px; }
+  .logo-img { max-height: 70px; max-width: 320px; }
 
   /* HERO */
   .hero { min-height: 70vh; }

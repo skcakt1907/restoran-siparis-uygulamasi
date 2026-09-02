@@ -8,7 +8,6 @@ use App\Http\Controllers\Api\MenuController;
 use App\Http\Controllers\Api\ReservationController;
 use App\Http\Controllers\Api\ServiceController;
 use App\Http\Controllers\Api\SettingController;
-use App\Http\Controllers\Api\TeamController;
 use App\Http\Controllers\Api\TestimonialController;
 use Illuminate\Support\Facades\Route;
 
@@ -23,7 +22,6 @@ Route::get('/categories/{slug}',    [CategoryController::class, 'show']);
 Route::get('/services',          [ServiceController::class,     'index']);
 Route::get('/services/{slug}',   [ServiceController::class,     'show']);
 
-Route::get('/team',              [TeamController::class,        'index']);
 Route::get('/testimonials',      [TestimonialController::class, 'index']);
 
 Route::get('/blog',              [BlogController::class,        'index']);

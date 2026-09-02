@@ -7,7 +7,6 @@ use App\Models\ContactMessage;
 use App\Models\MenuCategory;
 use App\Models\MenuItem;
 use App\Models\Reservation;
-use App\Models\TeamMember;
 use App\Models\Testimonial;
 use Filament\Widgets\StatsOverviewWidget;
 use Filament\Widgets\StatsOverviewWidget\Stat;
@@ -37,11 +36,6 @@ class StatsOverview extends StatsOverviewWidget
                 ->description('Toplam ' . ContactMessage::count() . ' mesaj')
                 ->descriptionIcon('heroicon-m-envelope')
                 ->color($unreadMsg > 0 ? 'danger' : 'success'),
-
-            Stat::make('Şefler', TeamMember::count())
-                ->description('Mutfak ekibi')
-                ->descriptionIcon('heroicon-m-user-group')
-                ->color('primary'),
 
             Stat::make('Müşteri Yorumları', Testimonial::where('is_active', true)->count())
                 ->description('Aktif yorum sayısı')

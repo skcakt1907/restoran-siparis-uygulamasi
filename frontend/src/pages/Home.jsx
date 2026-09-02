@@ -24,7 +24,7 @@ export default function Home() {
   if (loading) return <Loader text={t('common.loading')} />;
   if (!data) return <div className="empty">—</div>;
 
-  const { categories, team, stats, testimonials, blog } = data;
+  const { categories, stats, testimonials, blog } = data;
 
   return (
     <>
@@ -55,9 +55,10 @@ export default function Home() {
       <div className="section-divider"></div>
 
       {/* MENU CATEGORIES */}
-      <section className="section">
+      <section className="section home-menu">
         <span className="deco deco-left" style={{ top: 30, fontSize: '4rem', '--rot': '-15deg' }}>🌿</span>
         <span className="deco deco-right" style={{ bottom: 60, fontSize: '3rem', '--rot': '15deg' }}>🌶</span>
+        <img src="/rooster-mascot.png" alt="" className="home-menu-mascot" aria-hidden="true" />
         <div className="container">
           <div className="section-head">
             <span className="kicker">{t('section.menu.kicker')}</span>
@@ -90,34 +91,9 @@ export default function Home() {
 
       <div className="section-divider"></div>
 
-      {/* TEAM */}
-      <section className="section section-alt">
-        <div className="container">
-          <div className="section-head">
-            <span className="kicker">{t('section.team.kicker')}</span>
-            <h2>{t('section.team.title')}</h2>
-            <div className="divider"></div>
-            <p>{t('section.team.sub')}</p>
-          </div>
-          <div className="grid grid-4">
-            {team.map(m => (
-              <div key={m.id} className="team-card">
-                <div className="team-photo">
-                  <img src={imgUrl(m.photo_url)} alt={m.full_name} loading="lazy" />
-                </div>
-                <div className="team-info">
-                  <h3>{m.full_name}</h3>
-                  <div className="role">{m.title}</div>
-                  {m.specialty && <div className="specialty">🍽️ {m.specialty}</div>}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* TESTIMONIALS */}
       <section className="section testimonials-section">
+        <img src="/rooster-mascot.png" alt="" className="home-test-mascot" aria-hidden="true" />
         <div className="container">
           <div className="section-head">
             <span className="kicker">{t('section.testimonials.kicker')}</span>
@@ -132,7 +108,8 @@ export default function Home() {
       <div className="section-divider"></div>
 
       {/* BLOG */}
-      <section className="section">
+      <section className="section home-blog">
+        <img src="/rooster-mascot.png" alt="" className="home-blog-mascot" aria-hidden="true" />
         <div className="container">
           <div className="section-head">
             <span className="kicker">{t('section.blog.kicker')}</span>

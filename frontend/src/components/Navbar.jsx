@@ -68,7 +68,6 @@ export default function Navbar() {
               <li><NavLink to="/" end>{t('nav.home')}</NavLink></li>
               <li><NavLink to="/hakkimizda">{t('nav.about')}</NavLink></li>
               <li><NavLink to="/menu">{t('nav.menu')}</NavLink></li>
-              <li><NavLink to="/ekibimiz">{t('nav.team')}</NavLink></li>
               <li><NavLink to="/blog">{t('nav.blog')}</NavLink></li>
               <li><NavLink to="/iletisim">{t('nav.contact')}</NavLink></li>
               <li><NavLink to="/rezervasyon" className={({isActive}) => `rez-btn ${isActive ? 'active' : ''}`}>📅 {t('nav.reservation')}</NavLink></li>

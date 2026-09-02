@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <div className="footer-logo">
               {s.site_logo ? (
-                <img src={imgUrl(s.site_logo)} alt={s.site_name || 'Logo'} className="logo-img" style={{ maxHeight: 56, filter: 'brightness(0) invert(1)' }} />
+                <img src={imgUrl(s.site_logo)} alt={s.site_name || 'Logo'} className="logo-img" style={{ maxHeight: 80, maxWidth: 280 }} />
               ) : (
                 <>
                   <span className="logo-mark">Ç</span>
@@ -60,7 +60,6 @@ export default function Footer() {
             <ul>
               <li><Link to="/hakkimizda">{t('footer.links.about')}</Link></li>
               <li><Link to="/menu">{t('footer.links.menu')}</Link></li>
-              <li><Link to="/ekibimiz">{t('footer.links.team')}</Link></li>
               <li><a href="#">{t('footer.links.certs')}</a></li>
               <li><a href="#">{t('footer.links.photos')}</a></li>
               <li><a href="#">{t('footer.links.videos')}</a></li>
